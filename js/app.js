@@ -1,11 +1,7 @@
 var myData = [{ title: "Title", description: "<p>Lorem Ipsum</p>" }];
 
-//Ember.LOG_BINDINGS = true;			// log binding activities
-
 var App = Ember.Application.create({
-//	LOG_ACTIVE_GENERATION: true,		// log when Ember generates a controller or a route from a generic class
-//	LOG_VIEW_LOOKUPS: true, 			// log when Ember looks up a template or a view
-	rootElement: "#app"					// where to render the application (a )
+	rootElement: "#app"
 });
 
 App.Router.map(function() {
