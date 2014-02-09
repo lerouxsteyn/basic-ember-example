@@ -1,4 +1,4 @@
 basic-ember-example
 ===================
 
-Basic Ember Example
+Very simple EmberJS Example showing the basics of routing and rendering templates.
